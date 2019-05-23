@@ -1,4 +1,4 @@
-package com.codevert.tvp.core.scrappers.rtl;
+package com.codevert.tvp.core.scrappers.hr;
 
 import com.codevert.tvp.core.domain.Channel;
 import com.codevert.tvp.core.domain.ScheduleInfo;
