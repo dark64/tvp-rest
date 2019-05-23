@@ -86,7 +86,7 @@ public class HRTScrapper implements Scrapper<Channel> {
                     .split("\\.");
 
             try {
-                ScheduleInfo scheduleInfo = new ScheduleInfo(title, null, LocalDate.now().atTime(Integer.parseInt(time[0]), Integer.parseInt(time[1])));
+                ScheduleInfo scheduleInfo = new ScheduleInfo(title, "", LocalDate.now().atTime(Integer.parseInt(time[0]), Integer.parseInt(time[1])));
                 channel.getSchedules().add(scheduleInfo);
             } catch (NumberFormatException ex) {
                 ex.printStackTrace();
